@@ -1,0 +1,63 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: #666666;
+}
+
+a:hover{
+  color: #fff;
+  background-color: black;
+}
+
+.error-message h2 {
+  font-size: 12px;
+  width: 450px;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+
+td{
+  padding: 1px 5px 7px;
+  margin: 13px;
+}
+
+.flash-notice{
+  color: green;
+}
+
+.error-message {
+  width: 450px;
+  margin-bottom: 20px;
+  border: 2px solid #ff0000;
+}
+
+.error-message ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.error-message li {
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 15px;
+}
+
